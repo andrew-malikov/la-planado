@@ -1,0 +1,16 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Include="Models/Metric.fs"/>
+    <Compile Include="Models/MetricEffect.fs"/>
+    <Compile Include="Models/Requirement.fs"/>
+    <Compile Include="Models/Habbit.fs"/>
+    <Compile Include="Models/Activity.fs"/>
+    <Compile Include="Models/Day.fs"/>
+  </ItemGroup>
+
+</Project>
