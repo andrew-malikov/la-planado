@@ -1,10 +1,12 @@
 module LaPlanado.Domain.Models.Metric
 
+type MetricKey = string
+
 type ExistenceMetric =
-    { Name: string }
+    { Name: MetricKey }
 
 type ValuableMetric =
-    { Name: string
+    { Name: MetricKey
       Amount: double }
 
 type Metric =

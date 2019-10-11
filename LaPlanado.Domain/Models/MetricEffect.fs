@@ -6,13 +6,12 @@ open Metric
 
 type ExistenceMetricEffect =
     { Name: string
-      MetricName: string
-      Metric: ExistenceMetric
+      Metric: MetricKey
       Duration: DateTimeOffset }
 
 type ValuableMetricEffect =
     { Name: string
-      MetricName: string
+      Metric: MetricKey
       Amount: double
       Duration: DateTimeOffset }
 

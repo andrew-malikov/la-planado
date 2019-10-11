@@ -1,10 +1,12 @@
 module LaPlanado.Domain.Models.Requirement
 
+open Metric
+
 type ExistenceRequirement =
-    { MetricName: string }
+    { Metric: MetricKey }
 
 type ValuableRequirement =
-    { MetricName: string
+    { Metric: MetricKey
       Amount: double }
 
 type Requirement =
