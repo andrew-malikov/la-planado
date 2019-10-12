@@ -1,7 +1,8 @@
-module LaPlanado.Domain.Models.Habbit
+module LaPlanado.Habbit.Models.Habbit
+
+open LaPlanado.Metric.Models.MetricEffect
 
 open HabbitType
-open MetricEffect
 open Requirement
 
 type HabbitKey = string

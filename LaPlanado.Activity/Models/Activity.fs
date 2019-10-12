@@ -1,8 +1,8 @@
-module LaPlanado.Domain.Models.Activity
+module LaPlanado.Activity.Models.Activity
 
 open System
 
-open MetricEffect
+open LaPlanado.Metric.Models.MetricEffect
 
 type Activity =
     { Name: string

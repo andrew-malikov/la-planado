@@ -1,4 +1,4 @@
-module LaPlanado.Domain.Models.HabbitType
+module LaPlanado.Habbit.Models.HabbitType
 
 type HabbitTypeKey = string
 

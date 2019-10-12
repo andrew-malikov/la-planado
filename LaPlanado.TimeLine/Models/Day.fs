@@ -1,9 +1,9 @@
 module LaPlanado.Domain.Models.Day
 
-open Activity
-open Habbit
-open Metric
-open MetricEffect
+open LaPlanado.Metric.Models.Metric
+open LaPlanado.Metric.Models.MetricEffect
+open LaPlanado.Habbit.Models.Habbit
+open LaPlanado.Activity.Models.Activity
 
 type DayName =
     | Sunday

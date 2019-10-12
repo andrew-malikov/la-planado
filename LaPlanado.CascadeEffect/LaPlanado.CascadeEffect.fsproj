@@ -1,0 +1,17 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Include="Models/CascadeEffectEntry.fs"/>
+    <Compile Include="Models/CascadeEffect.fs"/>
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="../LaPlanado.Metric/LaPlanado.Metric.fsproj"/>
+    <ProjectReference Include="../LaPlanado.Habbit/LaPlanado.Habbit.fsproj"/>
+  </ItemGroup>
+
+</Project>

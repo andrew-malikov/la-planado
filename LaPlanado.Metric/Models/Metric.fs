@@ -1,4 +1,4 @@
-module LaPlanado.Domain.Models.Metric
+module LaPlanado.Metric.Models.Metric
 
 type MetricKey = string
 

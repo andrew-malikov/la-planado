@@ -1,0 +1,14 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Include="Models/Activity.fs"/>
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="../LaPlanado.Metric/LaPlanado.Metric.fsproj"/>
+  </ItemGroup>
+</Project>
