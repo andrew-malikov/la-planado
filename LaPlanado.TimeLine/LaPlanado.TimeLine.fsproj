@@ -6,6 +6,7 @@
 
   <ItemGroup>
     <Compile Include="Models/Day.fs"/>
+    <Compile Include="Models/TimeLine.fs"/>
   </ItemGroup>
 
   <ItemGroup>

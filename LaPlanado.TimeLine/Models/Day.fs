@@ -1,4 +1,4 @@
-module LaPlanado.Domain.Models.Day
+module LaPlanado.TimeLine.Models.Day
 
 open LaPlanado.Metric.Models.Metric
 open LaPlanado.Metric.Models.MetricEffect
@@ -15,7 +15,8 @@ type DayName =
     | Saturday
 
 type Day =
-    { Name: string
+    { Name: DayName
+      Number: int
       Activities: Activity Set
       Habbits: Habbit Set
       Metrics: Metric Set

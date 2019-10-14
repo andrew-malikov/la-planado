@@ -7,6 +7,7 @@
   <ItemGroup>
     <Compile Include="Models/Metric.fs"/>
     <Compile Include="Models/MetricEffect.fs"/>
+    <Compile Include="Models/MetricRating.fs"/>
   </ItemGroup>
 
 </Project>

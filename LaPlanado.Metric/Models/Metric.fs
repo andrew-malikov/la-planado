@@ -10,5 +10,5 @@ type ValuableMetric =
       Amount: double }
 
 type Metric =
-    | ExistenceMetric
-    | ValuableMetric
+    | ExistenceMetric of ExistenceMetric
+    | ValuableMetric of ValuableMetric
