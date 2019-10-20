@@ -10,9 +10,11 @@
   </ItemGroup>
 
   <ItemGroup>
-   <ProjectReference Include="../LaPlanado.Metric/LaPlanado.Metric.fsproj"/>
-   <ProjectReference Include="../LaPlanado.Habbit/LaPlanado.Habbit.fsproj"/>
-   <ProjectReference Include="../LaPlanado.Activity/LaPlanado.Activity.fsproj"/>
+    <ProjectReference Include="../LaPlanado.Shared/LaPlanado.Shared.fsproj"/>
+    <ProjectReference Include="../LaPlanado.Metric/LaPlanado.Metric.fsproj"/>
+    <ProjectReference Include="../LaPlanado.Habit/LaPlanado.Habit.fsproj"/>
+    <ProjectReference Include="../LaPlanado.Restriction/LaPlanado.Restriction.fsproj"/>
+    <ProjectReference Include="../LaPlanado.Activity/LaPlanado.Activity.fsproj"/>
   </ItemGroup>
 
 </Project>

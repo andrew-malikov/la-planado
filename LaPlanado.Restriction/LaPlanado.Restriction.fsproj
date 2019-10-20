@@ -5,13 +5,13 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Compile Include="Models/Requirement.fs"/>
-    <Compile Include="Models/HabbitType.fs"/>
-    <Compile Include="Models/Habbit.fs" />
+    <Compile Include="Models/Restriction.fs" />
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="../LaPlanado.Shared/LaPlanado.Shared.fsproj"/>
     <ProjectReference Include="../LaPlanado.Metric/LaPlanado.Metric.fsproj"/>
+    <ProjectReference Include="../LaPlanado.Habit/LaPlanado.Habit.fsproj"/>
   </ItemGroup>
 
 </Project>

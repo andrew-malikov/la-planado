@@ -11,7 +11,7 @@
 
   <ItemGroup>
     <ProjectReference Include="../LaPlanado.Metric/LaPlanado.Metric.fsproj"/>
-    <ProjectReference Include="../LaPlanado.Habbit/LaPlanado.Habbit.fsproj"/>
+    <ProjectReference Include="../LaPlanado.Habit/LaPlanado.Habit.fsproj"/>
   </ItemGroup>
 
 </Project>

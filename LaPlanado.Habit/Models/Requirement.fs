@@ -1,4 +1,4 @@
-module LaPlanado.Habbit.Models.Requirement
+module LaPlanado.Habit.Models.Requirement
 
 open LaPlanado.Metric.Models.Metric
 
